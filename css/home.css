@@ -1,0 +1,111 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: regular;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/backgrounds/mountains-universe-1 1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+nav {
+  padding: 10px 20px;
+  /* Espaçamento interno */
+  display: flex;
+  align-items: center;
+  /* Alinha os elementos verticalmente */
+  width: 1280px;
+  height: 122px;
+}
+
+nav img {
+  height: 42px;
+  width: 50px;
+  margin-left: 40px;
+}
+
+nav a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+.home {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+.universe {
+  padding-left: 30px;
+}
+
+.explorer {
+  padding-left: 30px;
+}
+
+.title_1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 48px;
+  color: white;
+  
+  width: 399px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza vertical e horizontalmente */
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 195px;
+  height: 48px;
+  margin: 0 auto;
+  position: absolute;
+  top: 60%;
+  left: 49%;
+  transform: translate(-50%, -50%); /* Centraliza vertical e horizontalmente */
+  border: 2px solid white; /* Adiciona uma borda de 2px sólida branca */
+  border-radius: 5px;
+  background-color: transparent; /* Remove o plano de fundo padrão */
+  color: white; /* Define a cor do texto */
+  font-size: 15px; /* Ajusta o tamanho da fonte */
+  font-weight: 700;
+  font-style: bold;
+  line-height: 48px;
+  text-decoration: none; /* Remove o sublinhado padrão */
+  cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+  outline: none; /* Remove a borda ao focar */
+  transition: all 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.button:hover {
+  background-color: #FFFFFF; /* Adiciona uma cor de fundo ao passar o mouse */
+  color: #02799D;
+}
